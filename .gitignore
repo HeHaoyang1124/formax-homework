@@ -1,0 +1,92 @@
+# Compiled Object files
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+*.bin
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+*.cmake
+!CMakeLists.txt
+cmake-build-debug/
+cmake-build-release/
+
+# IDE files
+# CLion
+.idea/
+*.iml
+
+# Visual Studio Code
+.vscode/
+
+# Vim
+*~
+.*.swp
+.*.swo
+
+# Emacs
+*~
+\#*\#
+
+# macOS
+.DS_Store
+
+# Linux
+*~
+.Trash-*
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Build directories
+build/
+bin/
+lib/
+dist/
+out/
+
+# Debug files
+*.pdb
+*.ilk
+*.idb
+
+# Runtime data
+*.log
+*.txt~
+*.dat
+
+# Coverage files
+*.gcno
+*.gcda
+*.gcov
+coverage/
+
+# Temporary files
+*.tmp
+*.temp
+*.cache
