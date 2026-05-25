@@ -1,8 +1,8 @@
-add_library(Math ${CMAKE_CURRENT_LIST_DIR}/src/Math.cpp)
+add_library(Math src/Math.cpp)
 
 target_include_directories(Math
         PUBLIC
-        ${CMAKE_CURRENT_LIST_DIR}/include
+        include
         ${OpenCV_INCLUDE_DIRS}
 )
 

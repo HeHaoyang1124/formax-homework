@@ -4,7 +4,7 @@ add_library(M1 ${M1_SOURCES})
 
 target_include_directories(M1
         PUBLIC
-        ${CMAKE_CURRENT_LIST_DIR}/include
+        include
 )
 
 target_link_libraries(M1
